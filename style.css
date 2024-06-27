@@ -24,6 +24,56 @@ body {
 
 .header {
   background-color: var(--white);
+  padding: 30px;
+  color: var(--black);
+}
+
+#first_header {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+#first_header button {
+  background-color: transparent;
+  border-style: none;
+}
+
+#first_header button svg {
+  height: 1.5em;
+}
+
+#first_header input {
+  height: 2em;
+}
+
+#user_menu {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+#small_name {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+#second_header {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+#first_header svg {
+  height: 1.3em;
+  fill: var(--black);
+}
+
+img {
+  border-radius: 50%;
+  height: 3em;
 }
 
 .sidebar {
